@@ -1,0 +1,34 @@
+{
+  "article": [
+    {
+      "id": 1,
+      "title": "Article 1",
+      "description": "PC"
+    },
+    {
+      "id": 2,
+      "title": "article2",
+      "description": "téléphone samsung"
+    },
+    {
+      "id": 3,
+      "titre": "Article 3",
+      "description": "télévision samsung 2022"
+    },
+    {
+      "id": 4,
+      "title": "ARTICLE4",
+      "description": "produits de nettoyage"
+    },
+    {
+      "id": 11,
+      "titre": "esprittttttttttttttt",
+      "description": "fgdfgdfgdfgdfgdfgdfgfdgfd"
+    },
+    {
+      "id": 10,
+      "titre": "",
+      "description": "description 7"
+    }
+  ]
+}

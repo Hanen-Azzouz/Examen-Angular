@@ -1,0 +1,17 @@
+<p>add-article works!</p>
+<form #f1="ngForm">
+    <div>
+        <label>ID</label><input type="number" name="id"[(ngModel)]="article.id">
+        </div>
+     <div>
+     <label>Titre</label><input type="text" name="title" #t="ngModel" required [(ngModel)]="article.title" >
+     </div>
+     <div *ngIf="t.invalid">le champs title est obligatoire</div>
+    <div>
+    <label>Description</label><input type="text"name="description" #d="ngModel" minlength="10"[(ngModel)]="article.description" >
+    </div>
+    <div *ngIf="d.invalid">la description doit contenir au mons 10 caracteres</div>
+        <input type="submit" value="save"(click)="ajouter(f1.value)">
+
+
+</form>
